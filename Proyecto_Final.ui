@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>389</width>
+    <height>264</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="txt_num1">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid grey;
+border-radius: 5px;
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic;&quot;&gt;Numeros&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>338</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btn_suma">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>SUMA</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_prom">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>PROMEDIO</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_mediana">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>MEDIANA</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_moda">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>MODA</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>150</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic;&quot;&gt;Resultado&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="txt_res">
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid grey;
+border-radius: 5px;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="placeholderText">
+        <string>resultado...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btn_limpiar">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>80</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>CLEAR...</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>210</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="btn_Destandar">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>DESVIACION ESTANDAR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_max">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>VALOR MAYOR</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>120</y>
+      <width>164</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="btn_min">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>VALOR MENOR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_varianza">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+border-radius:5px;
+border: 3px solid ;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>VARIANZA</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>389</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

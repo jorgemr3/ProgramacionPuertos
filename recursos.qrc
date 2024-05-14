@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="logos">
+    <file>Unidad2/66d822884e7171e9fb9cfadb8daf80b6.png</file>
+    <file>Unidad2/descarga.png</file>
+    <file>Unidad2/uat-solo-chico.png</file>
+  </qresource>
+  <qresource prefix="imagenes random"/>
+  <qresource prefix="equipo">
+    <file>IMG-20240216-WA0026.jpg</file>
+    <file>IMG-20240216-WA0027.jpg</file>
+    <file>IMG-20240216-WA0028.jpg</file>
+    <file>IMG-20240216-WA0025.jpg</file>
+  </qresource>
+</RCC>
