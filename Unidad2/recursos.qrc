@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="logos">
+    <file>uat-solo-chico.png</file>
+    <file>66d822884e7171e9fb9cfadb8daf80b6.png</file>
+    <file>descarga.png</file>
+  </qresource>
+  <qresource prefix="ahorcado">
+    <file>descargaaaa.jfif</file>
+    <file>ahorcado_brazo1.JPG</file>
+    <file>ahorcado_brazo2.JPG</file>
+    <file>ahorcado_cabeza.JPG</file>
+    <file>ahorcado_cuerpo.JPG</file>
+    <file>ahorcado_pie1.JPG</file>
+    <file>ahorcado_pie2.JPG</file>
+  </qresource>
+  <qresource prefix="temp">
+    <file>RELOJ.JPG</file>
+    <file>7koo.gif</file>
+  </qresource>
+  <qresource prefix="imc">
+    <file>Daniel_Lambert_Benjamin_Marshall.jpg</file>
+    <file>descarga (1).png</file>
+    <file>png-transparent-obesity-adipose-tissue-health-overweight-fat-health-weight-loss-silhouette-black.png</file>
+    <file>images (1).jfif</file>
+    <file>images.jfif</file>
+    <file>descarga.jfif</file>
+  </qresource>
+</RCC>
